@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: white;
+    height: max-content;
+    display:initial;
+}
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    /*position: sticky;
+    top: 0;*/
+    font-family: 'Handlee', cursive;
+    border: 4px solid black;
+    margin: 1px;
+    padding: 15px;
+
+
+}
+
+
+
+
+.cajacentral {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+
+
+.cajados {
+    border: 4px solid;
+    color: black;
+    font-family: 'Handlee', cursive;
+    /*width: 750px; */
+    width: 98,5%;
+    padding: 10px;
+    font-size: 25px;
+    margin: 1px;
+    min-height: 100vh;
+    flex-direction: column;
+    
+    
+    
+}  
+    
+
+
+
+.cajatres {
+
+    border: 4px solid;
+    color: black;
+    font-family: 'Handlee', cursive;
+    padding: 10px;
+    font-size: 25px;
+    margin: 1px;
+    
+}
+
+
+
+li {
+    color:black;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+
+
+footer{
+    border:3px solid black;
+    margin:1px;
+    padding: 2px;
+    display:flex;
+    flex-direction: row;
+    color: black;
+    justify-content: space-evenly;
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    padding-top: 10px;
+    
+    
+    
+    
+    
+
+}
+
+a:link{
+    text-decoration: underline;
+    color :black;
+    
+
+}
+
+.centrada {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.titulo{
+    border: 3px solid black;
+    text-align: center;
+    margin: 1px;
+    padding: 2px;
+    font-family: 'Handlee', cursive;
+
+}
+
+
+.alargue{
+    width: 90%;
+    text-align: center;
+    padding-top: 40px;
+     
+
+}
+
+body {
+    background-image: url(fondo.gif);
+    background-size: cover;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.imagenfull{
+   height: 350px;
+   width: 600px;
+}
+
